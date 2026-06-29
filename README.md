@@ -106,7 +106,7 @@ ponto de partida) e vai subindo praticamente o tempo todo, terminando em
 6.75 m — bem acima do erro médio do percurso (4.57 m). É a deriva crescente
 que se espera de um robô que só confia na odometria.
 
-![Trajetória - odom](results/odom/trajetoria.png)
+![Trajetória - odom](kalman_localization/results/odom/trajetoria.png)
 ![Erro de posição - odom](results/odom/erro_posicao.png)
 ![Erro de orientação - odom](results/odom/erro_orientacao.png)
 
