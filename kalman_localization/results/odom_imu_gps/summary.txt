@@ -1,0 +1,6 @@
+Configuracao: odom_imu_gps
+Amostras: 2441
+RMSE posicao (m): 5.4338
+Erro final posicao (m): 6.1530
+RMSE orientacao (rad): 0.0029
+Erro final orientacao (rad): 0.0000

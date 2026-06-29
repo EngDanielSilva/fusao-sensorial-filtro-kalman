@@ -1,0 +1,6 @@
+Configuracao: odom
+Amostras: 2438
+RMSE posicao (m): 9.5438
+Erro final posicao (m): 12.2382
+RMSE orientacao (rad): 1.7556
+Erro final orientacao (rad): 2.4869
