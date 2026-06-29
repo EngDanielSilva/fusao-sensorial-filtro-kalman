@@ -107,8 +107,8 @@ ponto de partida) e vai subindo praticamente o tempo todo, terminando em
 que se espera de um robô que só confia na odometria.
 
 ![Trajetória - odom](kalman_localization/results/odom/trajetoria.png)
-![Erro de posição - odom](results/odom/erro_posicao.png)
-![Erro de orientação - odom](results/odom/erro_orientacao.png)
+![Erro de posição - odom](kalman_localization/results/odom/erro_posicao.png)
+![Erro de orientação - odom](kalman_localization/results/odom/erro_orientacao.png)
 
 **Adicionando IMU (`odom_imu`).** Aqui a melhora foi enorme, principalmente
 na orientação: o erro caiu de 1.76 rad pra praticamente zero (0.0014 rad).
@@ -124,9 +124,9 @@ posição dá pra ver que o erro ainda sobe e desce ao longo do percurso (chega
 a passar de 3 m em alguns trechos), mas sem aquela tendência de só crescer
 que aparecia no `odom` puro.
 
-![Trajetória - odom_imu](results/odom_imu/trajetoria.png)
-![Erro de posição - odom_imu](results/odom_imu/erro_posicao.png)
-![Erro de orientação - odom_imu](results/odom_imu/erro_orientacao.png)
+![Trajetória - odom_imu](kalman_localization/results/odom_imu/trajetoria.png)
+![Erro de posição - odom_imu](kalman_localization/results/odom_imu/erro_posicao.png)
+![Erro de orientação - odom_imu](kalman_localization/results/odom_imu/erro_orientacao.png)
 
 **Adicionando GPS (`odom_imu_gps`).** Aqui o resultado surpreendeu um pouco.
 A expectativa era que o GPS, dando uma referência absoluta de posição,
@@ -146,9 +146,9 @@ orientação seguiu praticamente igual à configuração anterior, o que faz
 sentido: o GPS não mede orientação, só posição, então quem resolve esse eixo
 continua sendo a IMU.
 
-![Trajetória - odom_imu_gps](results/odom_imu_gps/trajetoria.png)
-![Erro de posição - odom_imu_gps](results/odom_imu_gps/erro_posicao.png)
-![Erro de orientação - odom_imu_gps](results/odom_imu_gps/erro_orientacao.png)
+![Trajetória - odom_imu_gps](kalman_localization/results/odom_imu_gps/trajetoria.png)
+![Erro de posição - odom_imu_gps](kalman_localization/results/odom_imu_gps/erro_posicao.png)
+![Erro de orientação - odom_imu_gps](kalman_localization/results/odom_imu_gps/erro_orientacao.png)
 
 ## 7. Conclusão
 
