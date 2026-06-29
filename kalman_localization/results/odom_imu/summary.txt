@@ -1,6 +1,9 @@
 Configuracao: odom_imu
-Amostras: 2442
-RMSE posicao (m): 5.7791
-Erro final posicao (m): 5.4969
-RMSE orientacao (rad): 0.0024
+Amostras: 2314
+RMSE posicao (m): 1.3526
+Erro final posicao (m): 1.4315
+RMSE orientacao (rad): 0.0056
 Erro final orientacao (rad): 0.0000
+
+[NOTA] Metricas calculadas apos alinhar o frame 'odom' (filtrado) ao frame do ground truth pela pose inicial.
+Offset de translacao aplicado: dx=4.650 m, dy=3.000 m; offset de rotacao (dyaw): 0.0000 rad (0.00 graus)
